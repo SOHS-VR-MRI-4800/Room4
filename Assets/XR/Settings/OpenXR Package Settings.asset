@@ -20,6 +20,26 @@ MonoBehaviour:
   company: Unity
   priority: 0
   required: 0
+--- !u!114 &-8991368514213248321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 946578d91fd159a47b2ef0d5f4524fdb, type: 3}
+  m_Name: ViveHandTracking Android
+  m_EditorClassIdentifier: 
+  m_enabled: 0
+  nameUi: VIVE XR Hand Tracking
+  version: 4.0.0
+  featureIdInternal: vive.wave.openxr.feature.hand.tracking
+  openxrExtensionStrings: XR_EXT_hand_tracking
+  company: HTC
+  priority: 0
+  required: 0
 --- !u!114 &-8488047881054811895
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60,6 +80,7 @@ MonoBehaviour:
   - {fileID: -439696027108586209}
   - {fileID: 3867600265057547965}
   - {fileID: -7708571347851552171}
+  - {fileID: 5537743558030120382}
   - {fileID: 2760728122369260057}
   - {fileID: 285151224701362411}
   - {fileID: -5034082913010599109}
@@ -69,7 +90,19 @@ MonoBehaviour:
   - {fileID: 4342879012419471374}
   - {fileID: 4458830860140019996}
   - {fileID: 525430236638539978}
+  - {fileID: -4922174131040546280}
+  - {fileID: 8551382175444634870}
+  - {fileID: -3723426803783043265}
+  - {fileID: 2289581538618594611}
+  - {fileID: 3138666808488806248}
+  - {fileID: 9210133454917989573}
+  - {fileID: 4272792842243564423}
+  - {fileID: -4716994020875572219}
+  - {fileID: -8991368514213248321}
+  - {fileID: 649264250486952388}
+  - {fileID: 5527463881286035819}
   - {fileID: 4326064690210536237}
+  - {fileID: -7979880996524604223}
   m_renderMode: 1
   m_autoColorSubmissionMode: 1
   m_colorSubmissionModes:
@@ -78,6 +111,26 @@ MonoBehaviour:
   m_optimizeBufferDiscards: 0
   m_symmetricProjection: 0
   m_foveatedRenderingApi: 0
+--- !u!114 &-7979880996524604223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e314dfef9af0904e80129bcc0a79361, type: 3}
+  m_Name: HandTracking Android
+  m_EditorClassIdentifier: 
+  m_enabled: 0
+  nameUi: Hand Tracking Subsystem
+  version: 0.0.1
+  featureIdInternal: com.unity.openxr.feature.input.handtracking
+  openxrExtensionStrings: XR_EXT_hand_tracking
+  company: Unity
+  priority: -100
+  required: 0
 --- !u!114 &-7708571347851552171
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -200,6 +253,46 @@ MonoBehaviour:
   company: Unity
   priority: 0
   required: 0
+--- !u!114 &-4922174131040546280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe9ba5ccf170d54478c5df33f98aabc5, type: 3}
+  m_Name: VIVEFocus3Profile Android
+  m_EditorClassIdentifier: 
+  m_enabled: 1
+  nameUi: VIVE Focus 3 Controller Interaction
+  version: 1.0.0
+  featureIdInternal: vive.wave.openxr.feature.focus3controller
+  openxrExtensionStrings: XR_HTC_vive_focus3_controller_interaction
+  company: HTC
+  priority: 0
+  required: 0
+--- !u!114 &-4716994020875572219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec058e82c4fd831488e0fe81bb41d440, type: 3}
+  m_Name: ViveHandInteraction Android
+  m_EditorClassIdentifier: 
+  m_enabled: 0
+  nameUi: VIVE XR Hand Interaction
+  version: 1.0.0
+  featureIdInternal: vive.wave.openxr.feature.hand.interaction
+  openxrExtensionStrings: XR_HTC_hand_interaction
+  company: HTC
+  priority: 0
+  required: 0
 --- !u!114 &-4310462093087283814
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -271,6 +364,26 @@ MonoBehaviour:
   featureIdInternal: com.unity.openxr.feature.input.valveindex
   openxrExtensionStrings: 
   company: Unity
+  priority: 0
+  required: 0
+--- !u!114 &-3723426803783043265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5621f5c5156e7648a0c3a1fa86497a7, type: 3}
+  m_Name: ViveCompositionLayerColorScaleBias Android
+  m_EditorClassIdentifier: 
+  m_enabled: 0
+  nameUi: VIVE XR Composition Layer (Color Scale Bias)
+  version: 1.0.0
+  featureIdInternal: vive.wave.openxr.feature.compositionlayer.colorscalebias
+  openxrExtensionStrings: XR_KHR_composition_layer_color_scale_bias
+  company: HTC
   priority: 0
   required: 0
 --- !u!114 &-3710737069492540125
@@ -409,6 +522,26 @@ MonoBehaviour:
   required: 0
   cacheSize: 1048576
   perThreadCacheSize: 51200
+--- !u!114 &-1112891636816833707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3aced3429e5911458f4da2dac9d0f29, type: 3}
+  m_Name: MetaHandTrackingAim Standalone
+  m_EditorClassIdentifier: 
+  m_enabled: 0
+  nameUi: Meta Hand Tracking Aim
+  version: 0.0.1
+  featureIdInternal: com.unity.openxr.feature.input.metahandtrackingaim
+  openxrExtensionStrings: XR_FB_hand_tracking_aim
+  company: Unity
+  priority: 0
+  required: 0
 --- !u!114 &-867264330283742235
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -440,6 +573,7 @@ MonoBehaviour:
   - {fileID: -5644865952480397625}
   - {fileID: -9038989059129030242}
   - {fileID: -5839252859971197881}
+  - {fileID: 6083120708543509421}
   m_renderMode: 1
   m_autoColorSubmissionMode: 1
   m_colorSubmissionModes:
@@ -607,6 +741,26 @@ MonoBehaviour:
   company: Unity
   priority: 0
   required: 0
+--- !u!114 &649264250486952388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03242486774e40c4683edc65026f5c89, type: 3}
+  m_Name: VIVEFocus3Feature Android
+  m_EditorClassIdentifier: 
+  m_enabled: 1
+  nameUi: VIVE XR Support
+  version: 1.0.0
+  featureIdInternal: com.unity.openxr.feature.vivefocus3
+  openxrExtensionStrings: 
+  company: HTC
+  priority: 0
+  required: 0
 --- !u!114 &1894523871436920510
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -669,6 +823,26 @@ MonoBehaviour:
   company: Unity
   priority: 0
   required: 0
+--- !u!114 &2289581538618594611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abd96d069ecb9b243a69661e0bffdfab, type: 3}
+  m_Name: ViveCompositionLayerCylinder Android
+  m_EditorClassIdentifier: 
+  m_enabled: 0
+  nameUi: VIVE XR Composition Layer (Cylinder)
+  version: 1.0.0
+  featureIdInternal: vive.wave.openxr.feature.compositionlayer.cylinder
+  openxrExtensionStrings: XR_KHR_composition_layer_cylinder
+  company: HTC
+  priority: 0
+  required: 0
 --- !u!114 &2760728122369260057
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -709,6 +883,26 @@ MonoBehaviour:
   optimizeBufferDiscards: 1
   lateLatchingMode: 0
   lateLatchingDebug: 0
+--- !u!114 &3138666808488806248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e78888b9743d564482402fe284c9126, type: 3}
+  m_Name: ViveCompositionLayerPassthrough Android
+  m_EditorClassIdentifier: 
+  m_enabled: 0
+  nameUi: VIVE XR Composition Layer (Passthrough)
+  version: 1.0.0
+  featureIdInternal: vive.wave.openxr.feature.compositionlayer.passthrough
+  openxrExtensionStrings: XR_HTC_passthrough
+  company: HTC
+  priority: 0
+  required: 0
 --- !u!114 &3443610147512238072
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -814,6 +1008,7 @@ MonoBehaviour:
   - {fileID: 2103111791087951964}
   - {fileID: 4897959480760015362}
   - {fileID: -748953185771588832}
+  - {fileID: -1112891636816833707}
   - {fileID: -8488047881054811895}
   - {fileID: 4959097446760922690}
   - {fileID: 5544789623458017930}
@@ -824,6 +1019,7 @@ MonoBehaviour:
   - {fileID: -1739551484800929043}
   - {fileID: -3732986937468969344}
   - {fileID: 7712342836418060047}
+  - {fileID: 5381285004406029936}
   m_renderMode: 1
   m_autoColorSubmissionMode: 1
   m_colorSubmissionModes:
@@ -832,6 +1028,26 @@ MonoBehaviour:
   m_optimizeBufferDiscards: 0
   m_symmetricProjection: 0
   m_foveatedRenderingApi: 0
+--- !u!114 &4272792842243564423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17b6a897c202288439905d3efb0e006f, type: 3}
+  m_Name: ViveFoveation Android
+  m_EditorClassIdentifier: 
+  m_enabled: 0
+  nameUi: VIVE XR Foveation
+  version: 1.0.0
+  featureIdInternal: vive.wave.openxr.feature.foveation
+  openxrExtensionStrings: XR_HTC_foveation
+  company: HTC
+  priority: 0
+  required: 0
 --- !u!114 &4326064690210536237
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -924,7 +1140,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 274c02963f889a64e90bc2e596e21d13, type: 3}
   m_Name: HTCViveControllerProfile Standalone
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: HTC Vive Controller Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.htcvive
@@ -972,6 +1188,26 @@ MonoBehaviour:
   company: Unity
   priority: 0
   required: 0
+--- !u!114 &5381285004406029936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e314dfef9af0904e80129bcc0a79361, type: 3}
+  m_Name: HandTracking Standalone
+  m_EditorClassIdentifier: 
+  m_enabled: 0
+  nameUi: Hand Tracking Subsystem
+  version: 0.0.1
+  featureIdInternal: com.unity.openxr.feature.input.handtracking
+  openxrExtensionStrings: XR_EXT_hand_tracking
+  company: Unity
+  priority: -100
+  required: 0
 --- !u!114 &5394484633981302610
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -989,6 +1225,46 @@ MonoBehaviour:
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.metaquestpro
   openxrExtensionStrings: XR_FB_touch_controller_pro
+  company: Unity
+  priority: 0
+  required: 0
+--- !u!114 &5527463881286035819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c438b3d1db2d7e4fb133eab8345e6bb, type: 3}
+  m_Name: ViveWristTracker Android
+  m_EditorClassIdentifier: 
+  m_enabled: 0
+  nameUi: VIVE XR Wrist Tracker
+  version: 1.0.0
+  featureIdInternal: vive.wave.openxr.feature.tracker
+  openxrExtensionStrings: XR_HTC_vive_wrist_tracker_interaction
+  company: HTC
+  priority: 0
+  required: 0
+--- !u!114 &5537743558030120382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3aced3429e5911458f4da2dac9d0f29, type: 3}
+  m_Name: MetaHandTrackingAim Android
+  m_EditorClassIdentifier: 
+  m_enabled: 0
+  nameUi: Meta Hand Tracking Aim
+  version: 0.0.1
+  featureIdInternal: com.unity.openxr.feature.input.metahandtrackingaim
+  openxrExtensionStrings: XR_FB_hand_tracking_aim
   company: Unity
   priority: 0
   required: 0
@@ -1051,6 +1327,26 @@ MonoBehaviour:
   openxrExtensionStrings: XR_EXT_palm_pose
   company: Unity
   priority: 0
+  required: 0
+--- !u!114 &6083120708543509421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e314dfef9af0904e80129bcc0a79361, type: 3}
+  m_Name: HandTracking Metro
+  m_EditorClassIdentifier: 
+  m_enabled: 0
+  nameUi: Hand Tracking Subsystem
+  version: 0.0.1
+  featureIdInternal: com.unity.openxr.feature.input.handtracking
+  openxrExtensionStrings: XR_EXT_hand_tracking
+  company: Unity
+  priority: -100
   required: 0
 --- !u!114 &6223506744090771237
 MonoBehaviour:
@@ -1284,5 +1580,46 @@ MonoBehaviour:
   featureIdInternal: com.unity.openxr.feature.input.khrsimpleprofile
   openxrExtensionStrings: 
   company: Unity
+  priority: 0
+  required: 0
+--- !u!114 &8551382175444634870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b06faf09f93c35b4b83640fd9908b630, type: 3}
+  m_Name: ViveCompositionLayer Android
+  m_EditorClassIdentifier: 
+  m_enabled: 0
+  nameUi: VIVE XR Composition Layer
+  version: 1.0.0
+  featureIdInternal: vive.wave.openxr.feature.compositionlayer
+  openxrExtensionStrings: 
+  company: HTC
+  priority: 0
+  required: 0
+  enableAutoFallback: 0
+--- !u!114 &9210133454917989573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 178a55074d1e6624d8cfbdc23367a56f, type: 3}
+  m_Name: ViveFacialTracking Android
+  m_EditorClassIdentifier: 
+  m_enabled: 0
+  nameUi: VIVE XR Facial Tracking
+  version: 1.0.0
+  featureIdInternal: vive.wave.openxr.feature.facial.tracking
+  openxrExtensionStrings: XR_HTC_facial_tracking
+  company: HTC
   priority: 0
   required: 0
